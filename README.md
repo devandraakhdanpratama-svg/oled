@@ -2,7 +2,7 @@
 oled animation
 
 # ESP32 Music Visualizer & Animasi Stickman (Melodi: Revenge - XXXTENTACION)
-![Project Banner](Screenshot 2026-06-30 222538.png)
+!([Screenshot 2026-06-30 222538.png](https://github.com/devandraakhdanpratama-svg/oled/blob/809dfd940ebe00d6bd6172b8088546458a187d8b/Screenshot%202026-06-30%20222538.png))
 
 Projek ini adalah pemutar musik non-blocking berbasis ESP32 yang menampilkan animasi stickman sedang mendengarkan musik (*head-banging*) dan audio equalizer dinamis pada layar OLED SSD1306 (128x64). Melodi yang dimainkan adalah lagu **"Revenge" oleh XXXTENTACION** melalui sebuah Piezo Buzzer.
 
