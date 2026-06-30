@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 90, "left": -20, "attrs": {} },
+    { "type": "board-ssd1306", "id": "oled", "top": -40, "left": 140, "attrs": {} },
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 140, "left": 320, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:GND.1", "oled:GND", "black", [ "v0" ] ],
+    [ "esp:3V3", "oled:VCC", "red", [ "v0" ] ],
+    [ "esp:D22", "oled:SCL", "blue", [ "v0" ] ],
+    [ "esp:D21", "oled:SDA", "green", [ "v0" ] ],
+    [ "esp:GND.2", "buzzer:GND", "black", [ "v0" ] ],
+    [ "esp:D18", "buzzer:pin", "purple", [ "v0" ] ],
+    [ "esp:D18", "buzzer:2", "green", [ "h302.7", "v58.7" ] ],
+    [ "esp:GND.2", "buzzer:1", "black", [ "h-13.8", "v68.2", "h374.4" ] ]
+  ],
+  "dependencies": {}
+}
